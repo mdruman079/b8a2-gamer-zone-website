@@ -1,9 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Work+Sans:wght@400;500;700&display=swap');
 
- .hide {
-     display: none;
- }
-
  * {
      box-sizing: border-box;
  }
@@ -80,14 +76,17 @@
      display: flex;
      align-items: center;
      background-color: rgb(255, 255, 255);
-     padding: 10px;
+     padding: 0px;
      border-radius: 10px;
  }
 
  .banner-text {
      background-image: url(../images/Group\ 14.png);
+     background-size: cover;
+     background-repeat: no-repeat;
      width: 50%;
      text-align: left;
+     padding: 10px;
  }
 
  .banner-text .play {
@@ -137,6 +136,7 @@
 
  .banner-img {
      width: 50%;
+     padding: 10px;
  }
 
  .banner-img img {
@@ -150,7 +150,7 @@
  /* we are gamer start */
  .we-gamer {
      max-width: 1400px;
-     margin: 0 auto;
+     margin: 95px auto 0px;
      display: flex;
      justify-content: center;
      text-align: center;
@@ -167,6 +167,7 @@
  .we-gamer-text {
      width: 50%;
      text-align: right;
+     margin-top: 24px;
  }
 
  .we-gamer-text h2 {
@@ -182,6 +183,7 @@
      color: #534C64;
      font-size: 18px;
      font-weight: 400;
+     margin-top: 24px;
  }
 
  .we-gamer-text button {
@@ -189,6 +191,7 @@
      font-size: 20px;
      font-weight: 600;
      border: none;
+     margin-top: 30px;
      padding: 21px 40px;
      border-radius: 48px;
      background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
@@ -199,6 +202,7 @@
      font-size: 32px;
      font-weight: 700;
      line-height: 45px;
+     margin-top: 24px;
  }
 
  .we-gamer-text span {
@@ -215,6 +219,7 @@
      text-align: center;
      font-size: 48px;
      font-weight: 700;
+     margin-top: 24px;
  }
 
  .grid-section span {
@@ -235,7 +240,7 @@
 
  .grid-container {
      max-width: 1400px;
-     margin: 0 auto;
+     margin: 48px auto 0px;
      display: grid;
      grid-template-columns: repeat(4, 1fr);
      gap: 24px;
@@ -261,7 +266,7 @@
 
  .Instant-container {
      max-width: 1400px;
-     margin: 0 auto;
+     margin: 120px auto;
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -310,6 +315,7 @@
  /* carrier section start */
  .carrier-secton {
      background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+     
  }
 
  .carrier {
@@ -318,18 +324,18 @@
      display: flex;
      justify-content: center;
      align-items: center;
+     gap: 10px;
  }
 
  .carrier-text {
      width: 50%;
  }
-
  .carrier-text h2 {
      color: #FFF;
      font-size: 48px;
      font-weight: 700;
+     margin-top: 120px;
  }
-
  .carrier-text p {
      color: #FFF;
      font-size: 18px;
@@ -341,6 +347,8 @@
      display: flex;
      justify-content: space-between;
      align-items: center;
+     margin-bottom: 5px;
+     
  }
 
  .carrier-text-container div {
@@ -348,7 +356,6 @@
      font-size: 20px;
      font-weight: 600;
  }
-
  .carrier-text button {
      border: none;
      padding: 21px 40px;
@@ -357,32 +364,33 @@
      color: #FF42A5;
      font-size: 20px;
      font-weight: 600;
+     margin-top: 35px;
+     margin-bottom: 120px;
  }
-
  .carrier-img {
      width: 50%;
  }
-
  .carrier-img img {
      width: 100%;
  }
-
  /* carrier section end */
 
  /* icon image section start */
  .icon-img-container {
      max-width: 1400px;
-     margin: 0 auto;
+     margin: 145px auto;
      display: flex;
      justify-content: center;
      align-items: center;
      flex-wrap: wrap;
+     
  }
 
  .icon-img {
      display: flex;
      justify-content: center;
      align-items: center;
+     margin-right: 50px;
  }
 
  .icon-img p {
@@ -397,7 +405,6 @@
  footer {
      background: #0B0223;
  }
-
  .footer-one,
  .footer-two,
  .footer-icon,
@@ -408,40 +415,41 @@
      align-items: center;
      gap: 10px;
  }
-
+ .footer-one{
+    padding-top: 120px;
+ }
+ .footer-icon {
+    margin: 65px 0px 45px;
+ }
  footer div {
      margin-right: 10px;
  }
-
  .footer-one h2 {
      font-size: 45px;
      font-weight: 700;
      color: #FFF;
+     
  }
-
  .footer-two div {
      color: #FFF;
      font-size: 18px;
      font-weight: 600;
  }
-
  .footer-icon {
      color: white;
  }
-
  .fa-brands {
     font-size: 40px;
     margin-right: 10px;
  }
-
  .footer-term div {
      color: rgba(255, 255, 255, 0.60);
      font-size: 16px;
      font-weight: 500;
  }
-
- footer p {
+ footer .copy-right {
      color: #FFFFFF99;
+     margin-top: 50px;
+     padding-bottom: 130px;
  }
-
  /* footer section end */

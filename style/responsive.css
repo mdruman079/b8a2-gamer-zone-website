@@ -1,0 +1,105 @@
+@media screen and (max-width: 400px) {
+
+    /* nav start */
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .logo-container {
+        justify-content: center;
+    }
+
+    .nav-items-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-items-container a {
+        margin-top: 10px;
+    }
+
+    /* nav end */
+
+    /* banner start */
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-text,
+    .banner-img {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    /* banner end */
+
+    /* we are gamer start */
+    .we-gamer {
+        flex-direction: column;
+    }
+    .we-gamer-img {
+        width: 100%;
+    }
+    .we-gamer-text {
+        width: 100%;
+        text-align: center;
+    }
+    /* we are gamer end */
+
+    /* grid section start */
+    .grid-container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid-container div{
+
+    }
+    /* grid section end */
+
+    /* instant section start */
+    .Instant-container {
+        flex-direction: column;
+    }
+    .Instant-container-text,
+    .Instant-container-img {
+        width: 100%;
+    }
+    /* instant section end */
+
+    /* carrier section start */
+    .carrier {
+        flex-direction: column;
+    }
+    .carrier-text {
+        width: 100%;
+        text-align: center;
+    }
+    .carrier-img {
+        width: 100%;
+        justify-content: center;
+    }
+    .carrier-text-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    /* carrier section end */
+
+    /* icon image section start */
+    .icon-img-container, .icon-img {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    /* icon image section end */
+
+    /* footer section start */
+    .footer-one,
+    .footer-two,
+    .footer-icon,
+    .footer-term,
+    footer p{
+        flex-direction: column;
+    }
+    /* footer section end */
+}
